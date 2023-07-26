@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('fonts/Quicksand-Regular.otf') format('opentype');
+}
+
+
+body {
+  background-color: white;
+  font-family: 'Quicksand-Regular';
+}
+body div#container {
+    position: relative; left:80px;
+
+}
+
+header div {
+    display: inline-block;
+    min-width:300px;
+    max-width:1000px;
+}
+
+header div#logo {
+ 
+   position:relative; left:50px; top:50px;
+
+}
+
+header div#welcome {
+  margin: 30px;
+  position: relative; left:150px; top:20px;
+}
+
+header h1 {
+   
+    color: black;
+    text-align:center;
+    border: 2px solid #FA9700;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+nav.nav_bar {
+    padding:0;
+    border:none;
+    margin:0;
+    min-width: 300px;
+    max-width:1000px;
+}
+nav.nav_bar ul {
+    display:inline-flex;
+
+}
+nav.nav_bar ul li {
+    list-style-type:none;
+}
+
+
+nav.nav_bar ul li a {
+    text-decoration: none;
+    color: black;
+    padding:10px;
+    position: relative; left:70px;
+}
+
+nav.nav_bar a:link {
+   color: black;
+}
+nav.nav_bar a:visited{
+    color: #3B2300;
+}
+nav.nav_bar a:hover {
+    border-bottom:2px solid #FFA319;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #FA570C;
+    background-color: #fa960057;
+}
+nav.nav_bar a:active {
+   color: #AD6800;
+}
+nav.nav_bar a.current_page {
+    border: 2px dotted #fa570c4d;
+    border-radius: 10px;
+    background-color: #fa570c4d;
+}
+
+
+/* style the dropdown button */
+button.dropbtn {
+    font-style: italic;
+    font-size: 15px;
+     position: relative; top: 10px;
+     padding:10px;
+     width: 200px;
+     background-color: #fa570c4b;
+     border-radius: 10px;
+     border: 2px dotted #fa570c4d;
+}
+/* container div for the dropdwon content to be positioned  */ 
+div.dropdown {
+    position:relative; top:10px;
+    display:inline-block;
+   
+}
+/* content dropdown  */ 
+div.dropdown-content {
+  position:relative; top:10px;
+  background-color: #fa570c4d;
+  z-index: 1;
+  display:none;
+}
+/*links inside dropdown*/ 
+div.dropdown-content a {
+    display:block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    padding:15px;
+   
+}
+/* on hover change dropwdown links color */
+div.dropdown-content a:hover {
+    color: #FA570C;
+}
+/* on hover show dropdown menu */
+div.dropdown:hover div.dropdown-content {
+    display:block;
+}
+
+main {
+    
+    display: inline-block;
+
+}
+main div.description {
+ margin: 10px;
+ padding: 10px;
+ position: relative; left: 300px; top:100px;
+ text-align: justify;
+ width: 600px;
+ height: 300px;
+} 
+main div.img13 {
+
+    position: relative; top: 70px; left: 950px;
+  
+}
+main div.img14 {
+position: relative; bottom: 450px; left: 950px;
+}
+
+footer nav {
+    display:inline-block;
+    font-size: 15px;
+    margin:0;
+    padding:0;
+    position: relative; left: 150px; top:200px;
+
+   
+   }
+   
+footer nav.first_nav ul li {
+       list-style-type:none;
+      
+   }
+   
+footer nav.first_nav ul li a {
+       text-decoration: none;
+       padding:10px;
+   } 
+   
+footer nav.first_nav a:link{
+       color:black;
+   }
+   
+footer nav.first_nav a:visited {
+       color: #3B2300;
+   }
+   
+footer nav.first_nav a:hover{
+       border-bottom:2px solid #FFA319;
+       border-radius: 10px;
+       font-weight: bold;
+       color: #FA570C;
+       background-color: #fa960057;
+       
+   }
+   
+footer nav.first_nav a:active {
+       color: #AD6800;
+   }
+   
+footer nav.sec_nav ul li {
+       list-style-type: none;
+   }
+   
+footer nav.sec_nav ul li a {
+       text-decoration: none;
+       padding:10px;
+   }
+   
+footer nav.sec_nav a:link{
+       color:black;
+   }
+footer nav.sec_nav a:visited {
+       color: #3B2300;
+   }
+   
+footer nav.sec_nav a:hover{
+       border-bottom:2px solid #FFA319;
+       border-radius: 10px;
+       font-weight: bold;
+       color: #FA570C;
+       background-color: #fa960057;
+   }
+   
+footer nav.sec_nav a:active{
+       color: #AD6800;
+   }
+   
